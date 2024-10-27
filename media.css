@@ -1,0 +1,2141 @@
+/* extra small screen(<576px) */
+@media (max-width: 575.98px) {
+  /* nav bar starts */
+  nav {
+    background-color: black;
+    height: 100px;
+    color: aliceblue;
+  }
+  .nav-list li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+  }
+  .nav-box img {
+    margin: 0px;
+    width: 47px;
+    height: 63px;
+  }
+  .nav-list {
+    padding: 0px 10px;
+  }
+  .li-button {
+    display: flex;
+  }
+  .nav-list .location {
+    padding: 10px 10px;
+  }
+  .nav-list ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .nav-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-box span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0px;
+  }
+  .nav-box span::after {
+    content: "SPHERE";
+    color: #ff6565;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .nav-button button {
+    width: 80px;
+    height: 33px;
+    background-color: #ff6565;
+    color: black;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+  }
+  nav .container {
+    display: block;
+  }
+  /* nav bar ends */
+  /* head section starts */
+  .head-section {
+    background-image: url("./image/head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+  }
+  .head-section .container span {
+    color: #ff6565;
+  }
+  .head-section .container .whole-row {
+    margin: 0px;
+  }
+  .head-section .container img {
+    height: 125px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 40%;
+    margin-right: 0;
+  }
+  .head-section .container h4 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+  }
+  .head-section .container h3 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 38px;
+    text-align: center;
+  }
+  /* head section ends */
+  /* first section starts */
+  .first-section .container .whole-row {
+    padding: 0px;
+  }
+  .first-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    padding: 20px 20px;
+  }
+  .first-section .container span {
+    color: #ff6565;
+  }
+  .first-section .container h3::before {
+    content: url("./image/Polygon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0%;
+    bottom: 35%;
+  }
+  .first-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 35%;
+    color: white;
+  }
+  .first-section .container .row h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .first-section .container .row img {
+    height: 220px;
+    width: 220px;
+  }
+  .pizza {
+    margin: 10px 70px;
+  }
+  .tacos {
+    margin: 10px 70px;
+  }
+  .pasta {
+    margin: 10px 70px;
+  }
+  #barbique {
+    margin: 10px 70px;
+  }
+  #beverage {
+    margin: 10px 70px;
+  }
+  #beverage h4 {
+    margin-right: 0px;
+  }
+  #barbique h4 {
+    margin-left: 0px;
+  }
+  .first-section .container button {
+    background-color: #ff6565;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    width: 170px;
+    height: 71px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 90px;
+  }
+  /* first section ends */
+  /* second section starts */
+
+  .second-section .container .whole-row1 {
+    padding: 0px;
+  }
+  .second-section .container h3 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    padding: 20px 0px;
+  }
+  .second-section .container span {
+    color: #ff6565;
+  }
+  .second-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 3%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    bottom: 50%;
+  }
+  .second-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 50%;
+  }
+  .second-section .container .box {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px 25px;
+  }
+  .second-section .container .box h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+  }
+  .second-section .container .whole-row {
+    padding: 0px;
+  }
+  .second-section .container .mexican {
+    background-image: url("./image/Rectangle\ 7.png");
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container .thali {
+    background-image: url("./image/Rectangle\ 8.png");
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container .italian {
+    background-image: url("./image/Rectangle\ 9.png");
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container p {
+    color: rgb(255, 255, 255);
+    padding: 200px 130px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+  }
+  /* second section ends */
+  /* third section starts */
+  .third-section .container span {
+    color: #ff6565;
+  }
+  .third-section .container h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    padding: 10px 10px;
+  }
+  .third-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 15%;
+    bottom: 80%;
+  }
+  .third-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 23%;
+    bottom: 80%;
+  }
+
+  .third-section .container .box2 {
+    height: 40px;
+    width: 350px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px 0px;
+    font-size: 12px;
+  }
+  .third-section .container .box2 h4 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px 20px;
+  }
+  .third-section .container .background {
+    background-image: url("./image/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 446px;
+    color: white;
+  }
+  .third-section .container p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
+  }
+  .third-section .container .pera {
+    display: block;
+    color: white;
+  }
+  .third-section .container .background img {
+    width: 303px;
+    height: 273px;
+    margin: 20px 25px;
+  }
+  /* third section ends */
+  /* fourth section starts */
+  .fourth-section .container span {
+    color: #ff6565;
+  }
+  .fourth-section .container h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    position: relative;
+  }
+  .fourth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 0%;
+    bottom: 60%;
+  }
+  .fourth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 5%;
+    bottom: 60%;
+  }
+  .fourth-section .container .color {
+    background-color: #ff6565;
+    width: 357px;
+    height: 360px;
+    margin: 0px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .fourth-section .container img {
+    width: 357px;
+    height: 320px;
+    position: absolute;
+    margin-right: 50%;
+  }
+  .fourth-section .container p {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  /* fourth section ends */
+  /* fifth section starts */
+  .fifth-section .container span {
+    color: #ff6565;
+  }
+  .fifth-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    position: relative;
+    padding: 20px 15px;
+  }
+  .fifth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 3%;
+    bottom: 70%;
+  }
+  .fifth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 9%;
+    bottom: 70%;
+  }
+  .fifth-section .container .whole-row {
+    padding: 0px;
+  }
+  .fifth-section .container .comment {
+    width: 306px;
+    height: 132px;
+    background-color: #ff6565;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .fifth-section .container img {
+    margin: 20px 40px;
+  }
+  /* fifth section ends */
+  /* footer section starts */
+  .footer {
+    background-color: black;
+    color: #ff6565;
+    margin-top: 30px;
+  }
+  .footer input {
+    display: block;
+    width: 279px;
+    height: 37px;
+    border-radius: 20px;
+    border-style: none;
+  }
+  .footer .color {
+    background-color: #ff6565;
+    width: 350px;
+    height: 153px;
+    margin: 0px;
+    border-radius: 20px;
+  }
+  .footer .email {
+    margin: 20px;
+  }
+  .footer .text {
+    margin: 20px;
+  }
+
+  .footer .location {
+    padding: 10px 120px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+  }
+  .footer img {
+    margin: 10px 20px;
+    width: 317px;
+    height: 186px;
+  }
+
+  .footer .get {
+    padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .footer .colum {
+    padding-top: 10px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .footer button {
+    background-color: #ff6565;
+    height: 27px;
+    width: 101px;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 20px;
+    margin: 0px;
+  }
+  .footer i {
+    margin: 5px;
+  }
+  /* footer section ends */
+}
+
+/* small screen((576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* nav bar starts */
+  nav {
+    background-color: black;
+    height: 100px;
+    color: aliceblue;
+  }
+  .nav-list li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+  }
+  .nav-box img {
+    margin: 0px;
+    width: 47px;
+    height: 63px;
+  }
+  .nav-list {
+    padding: 0px 10px;
+  }
+  .li-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .nav-list .location {
+    padding: 10px 15px;
+  }
+  .nav-list ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .nav-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-box span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+    padding: 0px;
+  }
+  .nav-box span::after {
+    content: "SPHERE";
+    color: #ff6565;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+  }
+  .nav-button button {
+    width: 130px;
+    height: 35px;
+    background-color: #ff6565;
+    color: black;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+  }
+  nav .container {
+    display: block;
+  }
+  /* nav bar ends */
+  /* head section starts */
+  .head-section {
+    background-image: url("./image/head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+  }
+  .head-section .container span {
+    color: #ff6565;
+  }
+  .head-section .container .whole-row {
+    margin: 0px;
+  }
+  .head-section .container img {
+    height: 125px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 40%;
+    margin-right: 0;
+  }
+  .head-section .container h4 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+  }
+  .head-section .container h3 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+  }
+  /* head section ends */
+  /* first section starts */
+  .first-section .container .whole-row {
+    padding: 0px;
+  }
+  .first-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    font-size: 32px;
+    padding: 20px 20px;
+  }
+  .first-section .container span {
+    color: #ff6565;
+  }
+  .first-section .container h3::before {
+    content: url("./image/Polygon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 8%;
+    bottom: 20%;
+  }
+  .first-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 8%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 20%;
+    color: white;
+  }
+  .first-section .container .row h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+  }
+  .first-section .container .row img {
+    height: 400px;
+    width: 400px;
+  }
+  .pizza {
+    margin: 10px 70px;
+  }
+  .tacos {
+    margin: 10px 70px;
+  }
+  .pasta {
+    margin: 10px 70px;
+  }
+  #barbique {
+    margin: 10px 70px;
+  }
+  #beverage {
+    margin: 10px 70px;
+  }
+  #beverage h4 {
+    margin-right: 0px;
+  }
+  #barbique h4 {
+    margin-left: 0px;
+  }
+  .first-section .container button {
+    background-color: #ff6565;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    width: 230px;
+    height: 75px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 170px;
+  }
+  /* first section ends */
+  /* second section starts */
+
+  .second-section .container .whole-row1 {
+    padding: 0px;
+  }
+  .second-section .container h3 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    padding: 20px 0px;
+  }
+  .second-section .container span {
+    color: #ff6565;
+  }
+  .second-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 8%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+  }
+  .second-section .container .box {
+    height: 50px;
+    width: 400px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px 85px;
+  }
+  .second-section .container .box h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px 10px;
+  }
+  .second-section .container .whole-row {
+    padding: 0px;
+  }
+  .second-section .container .mexican {
+    background-image: url("./image/Rectangle\ 7.png");
+    width: 430px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px 75px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container .thali {
+    background-image: url("./image/Rectangle\ 8.png");
+    width: 430px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px 75px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container .italian {
+    background-image: url("./image/Rectangle\ 9.png");
+    width: 430px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px 75px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container p {
+    color: rgb(255, 255, 255);
+    padding: 200px 130px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+  }
+  /* second section ends */
+  /* third section starts */
+  .third-section .container span {
+    color: #ff6565;
+  }
+  .third-section .container h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    padding: 10px 10px;
+  }
+  .third-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 25%;
+  }
+  .third-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 30%;
+  }
+
+  .third-section .container .box2 {
+    height: 45px;
+    width: 450px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px 70px;
+    font-size: 12px;
+  }
+  .third-section .container .box2 h4 {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px 20px;
+  }
+  .third-section .container .background {
+    background-image: url("./image/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 446px;
+    color: white;
+  }
+  .third-section .container p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+  }
+  .third-section .container .pera {
+    display: block;
+    color: white;
+  }
+  .third-section .container .background img {
+    width: 403px;
+    height: 273px;
+    margin: 20px 85px;
+  }
+  /* third section ends */
+  /* fourth section starts */
+  .fourth-section .container span {
+    color: #ff6565;
+  }
+  .fourth-section .container h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+  }
+  .fourth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 18%;
+  }
+  .fourth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 22%;
+    bottom: 50%;
+  }
+  .fourth-section .container .color {
+    background-color: #ff6565;
+    width: 557px;
+    height: 360px;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .fourth-section .container img {
+    width: 557px;
+    height: 320px;
+    position: absolute;
+    margin-right: 50%;
+  }
+  .fourth-section .container p {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  /* fourth section ends */
+  /* fifth section starts */
+  .fifth-section .container span {
+    color: #ff6565;
+  }
+  .fifth-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    position: relative;
+    padding: 20px 0px;
+  }
+  .fifth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 5%;
+  }
+  .fifth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 10%;
+  }
+  .fifth-section .container .whole-row {
+    padding: 0px;
+  }
+  .fifth-section .container .comment {
+    width: 306px;
+    height: 132px;
+    background-color: #ff6565;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .fifth-section .container img {
+    margin: 20px 150px;
+  }
+  /* fifth section ends */
+  /* footer section starts */
+  .footer {
+    background-color: black;
+    color: #ff6565;
+    margin-top: 30px;
+  }
+  .footer input {
+    display: block;
+    width: 279px;
+    height: 37px;
+    border-radius: 20px;
+    border-style: none;
+  }
+  .footer .color {
+    background-color: #ff6565;
+    width: 350px;
+    height: 153px;
+    margin: 0px 100px;
+    border-radius: 20px;
+  }
+  .footer .email {
+    margin: 20px;
+  }
+  .footer .text {
+    margin: 20px;
+  }
+  .footer .copy {
+    padding: 10px 100px;
+  }
+  .footer .location {
+    padding: 10px 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+  }
+  .footer img {
+    margin: 10px 100px;
+    width: 357px;
+    height: 196px;
+  }
+  .footer .get {
+    padding: 0px 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .footer .colum {
+    padding-top: 10px;
+    padding-left: 0px;
+    text-align: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .footer button {
+    background-color: #ff6565;
+    height: 27px;
+    width: 101px;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 20px;
+    margin: 0px;
+  }
+  .footer i {
+    margin: 5px;
+  }
+  /* footer section ends */
+}
+/* MD screen (768px to 991.98px) */
+/* iPadMINI AIR */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* nav bar starts */
+  nav {
+    background-color: black;
+    height: 130px;
+    color: aliceblue;
+  }
+  .nav-list li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .nav-box img {
+    margin: 0px;
+    width: 47px;
+    height: 63px;
+  }
+  .nav-list {
+    padding: 0px 15px;
+  }
+  .li-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+  }
+  .nav-list .location {
+    padding: 10px 20px;
+  }
+  .nav-list ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .nav-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-box span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+    padding: 0px;
+  }
+  .nav-box span::after {
+    content: "SPHERE";
+    color: #ff6565;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+  }
+  .nav-button button {
+    width: 150px;
+    height: 38px;
+    background-color: #ff6565;
+    color: black;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+  }
+  nav .container {
+    display: block;
+  }
+  /* nav bar ends */
+  /* head section starts */
+  .head-section {
+    background-image: url("./image/head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+  }
+  .head-section .container span {
+    color: #ff6565;
+  }
+  .head-section .container .whole-row {
+    margin: 0px;
+  }
+  .head-section .container img {
+    height: 125px;
+    width: 100px;
+    margin-left: 300px;
+    margin-top: 20%;
+    margin-right: 0;
+  }
+  .head-section .container h4 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+  }
+  .head-section .container h3 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+  }
+  /* head section ends */
+  /* first section starts */
+  .first-section .container .whole-row {
+    padding: 0px;
+  }
+  .first-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    font-size: 35px;
+    padding: 20px 20px;
+  }
+  .first-section .container span {
+    color: #ff6565;
+  }
+  .first-section .container h3::before {
+    content: url("./image/Polygon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+  }
+  .first-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 20%;
+    color: white;
+  }
+  .first-section .container .row h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+  }
+  .first-section .container .row img {
+    height: 550px;
+    width: 550px;
+  }
+  .first-section .container .row .img {
+    padding-left: 50px;
+  }
+  .pizza {
+    margin: 10px 70px;
+  }
+  .tacos {
+    margin: 10px 70px;
+  }
+  .pasta {
+    margin: 10px 70px;
+  }
+  #barbique {
+    margin: 10px 70px;
+  }
+  #beverage {
+    margin: 10px 70px;
+  }
+  #beverage h4 {
+    margin-right: 0px;
+  }
+  #barbique h4 {
+    margin-left: 0px;
+  }
+  .first-section .container button {
+    background-color: #ff6565;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    width: 280px;
+    height: 85px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 200px;
+  }
+  /* first section ends */
+  /* second section starts */
+
+  .second-section .container .whole-row1 {
+    padding: 0px;
+  }
+  .second-section .container h3 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    padding: 20px 0px;
+  }
+  .second-section .container span {
+    color: #ff6565;
+  }
+  .second-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 20%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 20%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+  }
+  .second-section .container .box {
+    height: 50px;
+    width: 400px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px 180px;
+  }
+  .second-section .container .box h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px 10px;
+  }
+  .second-section .container .whole-row {
+    padding: 0px;
+  }
+  .second-section .container .mexican {
+    background-image: url("./image/Rectangle\ 7.png");
+    width: 530px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px 110px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container .thali {
+    background-image: url("./image/Rectangle\ 8.png");
+    width: 530px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px 110px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container .italian {
+    background-image: url("./image/Rectangle\ 9.png");
+    width: 530px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px 110px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container p {
+    color: rgb(255, 255, 255);
+    padding: 200px 170px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+  }
+  /* second section ends */
+  /* third section starts */
+  .third-section .container span {
+    color: #ff6565;
+  }
+  .third-section .container h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    padding: 10px 10px;
+  }
+  .third-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 25%;
+  }
+  .third-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 30%;
+  }
+
+  .third-section .container .box2 {
+    height: 45px;
+    width: 500px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px 120px;
+    font-size: 12px;
+  }
+  .third-section .container .box2 h4 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px 10px;
+  }
+  .third-section .container .background {
+    background-image: url("./image/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 446px;
+    color: white;
+  }
+  .third-section .container p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    padding: 0px;
+    text-align: center;
+  }
+  .third-section .container .pera {
+    display: block;
+    color: white;
+  }
+  .third-section .container .background img {
+    width: 453px;
+    height: 273px;
+    margin: 20px 135px;
+  }
+  /* third section ends */
+  /* fourth section starts */
+  .fourth-section .container span {
+    color: #ff6565;
+  }
+  .fourth-section .container h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+  }
+  .fourth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 18%;
+  }
+  .fourth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 22%;
+    bottom: 50%;
+  }
+  .fourth-section .container .color {
+    background-color: #ff6565;
+    width: 557px;
+    height: 360px;
+    margin-left: 12%;
+    border-radius: 20px;
+    position: relative;
+  }
+  .fourth-section .container img {
+    width: 557px;
+    height: 320px;
+    position: absolute;
+    margin-left: 0%;
+  }
+  .fourth-section .container p {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  /* fourth section ends */
+  /* fifth section starts */
+  .fifth-section .container span {
+    color: #ff6565;
+  }
+  .fifth-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    position: relative;
+    padding: 20px 0px;
+  }
+  .fifth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 18%;
+  }
+  .fifth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 20%;
+  }
+  .fifth-section .container .whole-row {
+    padding: 0px;
+  }
+  .fifth-section .container .comment {
+    width: 406px;
+    height: 132px;
+    background-color: #ff6565;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .fifth-section .container img {
+    margin: 20px 230px;
+  }
+  /* fifth section ends */
+  /* footer section starts */
+  .footer {
+    background-color: black;
+    color: #ff6565;
+    margin-top: 30px;
+  }
+  .footer input {
+    display: block;
+    width: 279px;
+    height: 37px;
+    border-radius: 20px;
+    border-style: none;
+  }
+  .footer .color {
+    background-color: #ff6565;
+    width: 450px;
+    height: 183px;
+    margin: 0px 150px;
+    border-radius: 20px;
+  }
+  .footer .email {
+    margin: 20px;
+  }
+  .footer .text {
+    margin: 20px;
+  }
+
+  .footer .location {
+    padding: 10px 300px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 34px;
+  }
+  .footer img {
+    margin: 10px 140px;
+    width: 457px;
+    height: 220px;
+  }
+  .footer .get {
+    padding: 0px 150px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .footer .copy {
+    padding-left: 150px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .footer .colum {
+    padding-top: 10px;
+    padding-left: 0px;
+    text-align: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .footer button {
+    background-color: #ff6565;
+    height: 27px;
+    width: 101px;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 20px;
+    margin: 0px;
+  }
+  .footer i {
+    margin: 5px;
+  }
+  /* footer section ends */
+}
+/* large screen (992 to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* nav bar starts */
+  nav {
+    background-color: black;
+    height: 130px;
+    color: aliceblue;
+  }
+  .nav-list li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .nav-box img {
+    margin: 0px;
+    width: 47px;
+    height: 63px;
+  }
+  .nav-list {
+    padding: 0px 15px;
+  }
+  .li-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+  }
+  .nav-list .location {
+    padding: 10px 20px;
+  }
+  .nav-list ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .nav-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-box span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+    padding: 0px;
+  }
+  .nav-box span::after {
+    content: "SPHERE";
+    color: #ff6565;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+  }
+  .nav-button button {
+    width: 150px;
+    height: 38px;
+    background-color: #ff6565;
+    color: black;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+  }
+  nav .container {
+    display: block;
+  }
+  /* nav bar ends */
+  /* head section starts */
+  .head-section {
+    background-image: url("./image/head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+  }
+  .head-section .container span {
+    color: #ff6565;
+  }
+  .head-section .container .whole-row {
+    margin: 0px;
+  }
+  .head-section .container img {
+    height: 125px;
+    width: 100px;
+    margin-left: 450px;
+    margin-top: 20%;
+    margin-right: 0;
+  }
+  .head-section .container h4 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+  }
+  .head-section .container h3 {
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+  }
+  /* head section ends */
+  /* first section starts */
+  .first-section .container .whole-row {
+    padding: 0px;
+  }
+  .first-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    font-size: 55px;
+    padding: 20px 20px;
+  }
+  .first-section .container span {
+    color: #ff6565;
+  }
+  .first-section .container h3::before {
+    content: url("./image/Polygon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+  }
+  .first-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 10%;
+    color: white;
+  }
+  .first-section .container .row h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+  }
+  .first-section .container .row img {
+    height: 200px;
+    width: 200px;
+  }
+  .first-section .container .row .img {
+    padding-left: 50px;
+  }
+  .pizza {
+    margin: 10px 40px;
+  }
+  .tacos {
+    margin: 10px 40px;
+  }
+  .pasta {
+    margin: 10px 40px;
+  }
+  #barbique {
+    margin: 10px 200px;
+  }
+  #beverage {
+    margin: 10px 50px;
+  }
+  h4 {
+    margin-right: 100px;
+  }
+  .barbique {
+    padding-left: 270px;
+  }
+  .first-section .container button {
+    background-color: #ff6565;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    width: 300px;
+    height: 95px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 30px 350px;
+  }
+  /* first section ends */
+  /* second section starts */
+
+  .second-section .container .whole-row1 {
+    padding: 0px;
+  }
+  .second-section .container h3 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    padding: 20px 0px;
+  }
+  .second-section .container span {
+    color: #ff6565;
+  }
+  .second-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 25%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 27%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 641px;
+  }
+  .second-section .container .box {
+    height: 50px;
+    width: 500px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px 240px;
+  
+  }
+  .second-section .container .box h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    padding: 0px 13px;
+   margin-right: 22px;
+  }
+  .second-section .container .whole-row {
+    padding: 0px;
+  }
+  .second-section .container .mexican {
+    background-image: url("./image/Rectangle\ 7.png");
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+
+  .second-section .container .thali {
+    background-image: url("./image/Rectangle\ 8.png");
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container .italian {
+    background-image: url("./image/Rectangle\ 9.png");
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+  .second-section .container p {
+    color: rgb(255, 255, 255);
+    padding: 80px 50px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+  }
+  /* second section ends */
+  /* third section starts */
+  .third-section .container span {
+    color: #ff6565;
+  }
+  .third-section .container h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    padding: 10px 10px;
+  }
+  .third-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 30%;
+  }
+  .third-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 35%;
+  }
+
+  .third-section .container .box2 {
+    height: 60px;
+    width: 700px;
+    border: 1px solid #ff6565;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px 150px;
+    font-size: 12px;
+  }
+  .third-section .container .box2 h4 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px 25px;
+    margin-right: 0px;
+  }
+  .third-section .container .background {
+    background-image: url("./image/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 446px;
+    color: white;
+  }
+  .third-section .container p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    padding-top: 80px;
+    text-align: left;
+  }
+  .third-section .container .pera {
+    display: block;
+    color: white;
+  }
+  .third-section .container .background img {
+    width: 403px;
+    height: 273px;
+    margin: 80px 20px;
+  }
+  /* third section ends */
+  /* fourth section starts */
+  .fourth-section .container span {
+    color: #ff6565;
+  }
+  .fourth-section .container h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+  }
+  .fourth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 22%;
+  }
+  .fourth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 25%;
+    bottom: 50%;
+  }
+  .fourth-section .container .color {
+    background-color: #ff6565;
+    width: 557px;
+    height: 360px;
+    margin-left: 22%;
+    border-radius: 20px;
+    position: relative;
+  }
+  .fourth-section .container img {
+    width: 557px;
+    height: 320px;
+    position: absolute;
+    margin-left: 0%;
+  }
+  .fourth-section .container p {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  /* fourth section ends */
+  /* fifth section starts */
+  .fifth-section .container span {
+    color: #ff6565;
+  }
+  .fifth-section .container h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    position: relative;
+    padding: 20px 0px;
+  }
+  .fifth-section .container h3::before {
+    content: url("./image/Polygon.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 25%;
+  }
+  .fifth-section .container h3::after {
+    content: url("./image/Polygon 1.png");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 28%;
+  }
+  .fifth-section .container .whole-row {
+    padding: 0px;
+  }
+  .fifth-section .container .comment {
+    width: 306px;
+    height: 132px;
+    background-color: #ff6565;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .fifth-section .container img {
+    margin: 0px 40px;
+  }
+  .whole-img {
+    width: 300px;
+    height: 200px;
+  }
+  /* fifth section ends */
+  /* footer section starts */
+  .footer {
+    background-color: black;
+    color: #ff6565;
+    margin-top: 20px;
+  }
+  .footer input {
+    display: block;
+    width: 309px;
+    height: 37px;
+    border-radius: 20px;
+    border-style: none;
+  }
+  .footer .color {
+    background-color: #ff6565;
+    width: 400px;
+    height: 183px;
+    margin: 0px 0px 64px 0px;
+    border-radius: 20px;
+  }
+  .footer .email {
+    margin: 33px 31px 37px 23px;
+  }
+  .footer .text {
+    margin: 0px 31px 37px 23px;
+  }
+
+  .footer .location {
+    padding-left: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+  }
+  .footer img {
+    margin: 0px;
+    width: 317px;
+    height: 186px;
+  }
+  .footer .get {
+    padding: 48px 0px 0px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .footer .colum {
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .footer button {
+    background-color: #ff6565;
+    height: 27px;
+    width: 101px;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 20px;
+    margin: 0px 8px 153px 0px;
+  }
+  .footer i {
+    margin-right: 7px;
+  }
+}
+/* extra large(1200px>) */
